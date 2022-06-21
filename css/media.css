@@ -52,7 +52,8 @@
 	}
 
 	.header__menu_item {
-		padding-bottom: 20px;
+		padding-top: 1px;
+		padding-bottom: 18px;
 	}
 
 	.arrow_down:after {
@@ -78,14 +79,13 @@
 	}
 
 	.header__drop {
-		top: 87px;
+		top: 85px;
 		padding: 15px 25px;
 		font-size: 12px;
 		opacity: 1;
 	}
 
 	.header__drop_media {
-		width: 25%;
 		position: relative;
 	}
 
@@ -164,7 +164,6 @@
 	}
 
 	.news__item {
-		width: 31%;
 		padding: 20px;
 	}
 
@@ -194,10 +193,6 @@
 		height: 17px;
 	}
 
-	.health__item {
-		width: 31%;
-	}
-
 	.health__item_pic {
 		height: 170px;
 	}
@@ -222,16 +217,14 @@
 		height: 64px;
 	}
 
-	.footer__contacts {
-		width: 200px;
-	}
-
 	.footer__logo {
+		margin-top: -35px;
 		margin-bottom: 30px;
 	}
 
 	.footer__contacts_item {
 		margin-bottom: 7px;
+		max-width: 80%;
 	}
 
 	.footer__menu_header {
@@ -460,7 +453,8 @@
 	}
 
 	.footer__logo {
-		width: 40%;
+		width: 50%;
+		margin-top: 0;
 		margin-bottom: 20px;
 	}
 
@@ -468,7 +462,8 @@
 		margin-left: 27px;
 	}
 
-	.footer__menu {
+	.footer__menu_products,
+	.footer__menu_all {
 		display: none;
 	}
 

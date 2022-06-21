@@ -64,16 +64,31 @@ $(document).ready(function () {
 
 	/*аккордеон*/
 	$(".set > .set__btn").on("click", function(){
-	      if($(this).hasClass('active')){
-	        $(this).removeClass("active");
-	        $(this).siblings('.set__content').slideUp(200);
-	    }else{
-	        $(".set > .set__btn").removeClass("active");
-	        $(this).addClass("active");
-	        $('.set__content').slideUp(200);
-	        $(this).siblings('.set__content').slideDown(200);
-	    }
-	    return false
+		if($(this).hasClass('active')) {
+			$(this).removeClass("active");
+			$(this).siblings('.set__content').slideUp(200);
+		}
+		else{
+			$(".set > .set__btn").removeClass("active");
+			$(this).addClass("active");
+			$('.set__content').slideUp(200);
+			$(this).siblings('.set__content').slideDown(200);
+		}
+		return false
+	});
+
+	$(".inner__set > .inner__set_btn").on("click", function(){
+		if($(this).hasClass('active')) {
+			$(this).removeClass("active");
+			$(this).siblings('.inner__set_content').slideUp(200);
+		}
+		else{
+			$(".inner__set > .inner__set_btn").removeClass("active");
+			$(this).addClass("active");
+			$('.inner__set_content').slideUp(200);
+			$(this).siblings('.inner__set_content').slideDown(200);
+		}
+		return false
 	});
 
 });
