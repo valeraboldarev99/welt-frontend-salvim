@@ -1,0 +1,14 @@
+<svg width="198" height="197" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(180 99 98.5)" id="svg_7">
+   <rect stroke="#373737" x="0" y="0" id="svg_1" width="198.00002" height="197.00001" fill="none"/>
+   <line id="svg_2" y2="66.00001" y1="66.00001" x2="130" x1="66" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" stroke="#373737" fill="none"/>
+   <line id="svg_3" y2="98.00001" y1="98.00001" x2="130" x1="66" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" stroke="#373737" fill="none"/>
+   <line id="svg_4" y2="130.00001" y1="130.00001" x2="98" x1="66" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" stroke="#373737" fill="none"/>
+   <path id="svg_5" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" stroke="#373737" fill="none" d="m126.7,186.00001l-108.7,0a8,8 0 0 1 -8,-8l0,-160a8,8 0 0 1 8,-8l160,0a8,8 0 0 1 8,8l0,108.7a7.9,7.9 0 0 1 -2.3,5.6l-51.4,51.4a7.9,7.9 0 0 1 -5.6,2.3z"/>
+   <polyline id="svg_6" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" stroke="#373737" points="185.30000686645508,130.00000762939453 130.00000381469727,130.00000762939453 130.00000381469727,185.30001068115234 " fill="none"/>
+  </g>
+ </g>
+</svg>
