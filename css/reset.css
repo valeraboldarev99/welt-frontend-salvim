@@ -4,9 +4,9 @@
 
 html {
 	height: 100%;
-	font-size: 18px;
-	line-height: 1.4;
-	color: rgba(55, 55, 55, 1);
+	font-size: 16px;
+	line-height: 1.5;
+	color: #373737;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
@@ -14,6 +14,7 @@ html {
 body {
 	margin: 0;
 	height: 100%;
+	font-size: 16px;
 }
 
 * {
@@ -26,6 +27,10 @@ body {
 	box-sizing: border-box;
 }
 
+p {
+	margin: 15px 0;
+}
+
 h1,
 h2,
 h3,
@@ -36,7 +41,16 @@ h6 {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.4;
-	color: rgba(55, 55, 55, 1);
+	color: #373737;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
 }
 
 ul,
@@ -91,6 +105,7 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
+	color: #0067aa;
 }
 
 i,
@@ -207,7 +222,7 @@ dfn {
 
 mark {
 	background-color: #fff;
-	color: rgba(55, 55, 55, 1);
+	color: #373737;
 }
 
 small {

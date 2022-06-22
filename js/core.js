@@ -19,6 +19,26 @@ $(document).ready(function () {
 		]
 	});
 
+	// слaйдер на странице о компании
+	$('.counts__slider').slick({
+		slidesToScroll:1,
+		slidesToShow:5,
+		// autoplay: true,
+		appendArrows:'.counts-slider-arrows',
+		autoplaySpeed: 3000,
+		pauseOnHover:true,
+		arrows:true,
+		dots:false,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					arrows:true,
+				}
+			}
+		]
+	});
+
 	/*кнопка вверх*/
 	$('.scrollup').click(function(){
 		$("html, body").animate({ scrollTop: 0 }, 600);

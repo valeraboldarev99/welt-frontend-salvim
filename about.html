@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Salvim | Главная страница</title>
+	<title>Salvim | О компании</title>
 	<link rel="stylesheet" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/jquery.fancybox.css"/>
 	<link rel="stylesheet" href="css/reset.css">
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<div class="page">
+	<div class="page page-inner">
 		<div class="page__header">
 			<div class="wrapper">
 				<header class="header">
@@ -200,113 +200,176 @@
 			</div>
 		</div>
 		<main class="page__main">
-			<div class="slider__block">
-				<div class="slider">
-					<div class="slide">
-						<picture>
-							<source srcset="img/temp/main slider.jpg" media="(max-width: 767px)">
-							<img src="img/temp/main slider.jpg" alt="pic">
-						</picture>
-						<div class="wrapper">
-							<div class="info__block">
-								<h2 class="info__block_text">
-									<span>Как работает Галавит</span>
-								</h2>
-							</div>
+			<div class="main__header main__header_dark-bg">
+				<div class="wrapper">
+					<ul class="bread-crumbs">
+						<li class="bread-crumbs__item">
+							<a href="index.html" class="bread-crumbs__link">Главная</a>
+							<span class="bread-crumbs__separator">/</span>
+						</li>
+						<li class="bread-crumbs__item">О компании</li>
+					</ul>
+					<h1 class="page__title">О компании</h1>
+					<div class="main__menu">
+						<ul class="main__menu_items">
+							<li class="main__menu_item">
+								<a href="#about__block" class="active">О компании</a>
+							</li>
+							<li class="main__menu_item">
+								<a href="#our__values">Наши ценности</a>
+							</li>
+							<li class="main__menu_item">
+								<a href="#">Руководство</a>
+							</li>
+							<li class="main__menu_item">
+								<a href="#production">Производство</a>
+							</li>
+							<li class="main__menu_item">
+								<a href="#">Карьера</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div id="about__block" class="about__block">
+					<h2 class="content__header">Сэлвим — российская фармацевтическая компания, осуществляющая разработку, производство и продвижение продуктов для здоровья</h2>
+					<p>
+						Наши лекарственные средства и БАДы соответствуют международным стандартам GMP. 
+						Здоровье не измеряется количеством проданных таблеток или капель. Людям нужны решения для здоровья. 
+						Это не только лекарства, но и инновационные способы профилактики, мониторинга, анализа. 
+						Математическое моделирование однозначно показывает, что неопределенный интеграл проецирует комплексный вектор, что и требовалось доказать. 
+						Можно предположить, что огибающая допускает параллельный степенной ряд. Итак, ясно, что точка перегиба транслирует отрицательный интеграл от функции комплексной переменной. 
+						Тем не менее, ортогональный определитель существенно определяет возрастающий интеграл от функции комплексной переменной. 
+						Поле направлений ускоряет детерминант.  Однако не все знают, что первообразная функция накладывает интеграл Дирихле.
+					</p>
+					<div class="pdf__block">
+						<div class="pdf__block_icon"></div>
+						<div class="pdf__block_content">
+							<span class="pdf_name">Корпоративная презентация</span>
+							<span class="pdf_format">(PDF)</span>
+						</div>
+						<a href="#" class="mask"></a>
+					</div>
+				</div>
+				<div class="our__values" id="our__values">
+					<h2 class="content__header">Наши ценности</h2>
+					<div class="our__values_items">
+						<div class="our__values_item">
+							<span class="our__value_icon our__value_love">Любовь</span>
+						</div>
+						<div class="our__values_item">
+							<span class="our__value_icon our__value_responsibility">Ответственность</span>
+						</div>
+						<div class="our__values_item">
+							<span class="our__value_icon our__value_freedom">Свобода</span>
+						</div>
+						<div class="our__values_item">
+							<span class="our__value_icon our__value_engagement">Вовлеченность</span>
+						</div>
+						<div class="our__values_item">
+							<span class="our__value_icon our__value_development">Развитие</span>
 						</div>
 					</div>
-					<div class="slide">
-						<picture>
-							<source srcset="img/temp/bg01.png" media="(max-width: 767px)">
-							<img src="img/temp/bg01.png" alt="pic">
-						</picture>
-						<div class="wrapper">
-							<div class="info__block">
-								<h2 class="info__block_text">
-									<span>Далеко-далеко, за словесными горами в стране.</span>
-								</h2>
+				</div>
+			</div>
+			<div id="production" class="production">
+				<div class="wrapper">
+					<div class="production__top">
+						<div class="production__left">
+							<h2 class="production__title">Производство</h2>
+							<p>Производственная площадка компании «Сэлвим», расположена в Белгороде. Это уникальное предприятие, где на очень небольшой площади, 670 м², разместились не только участки по выпуску сразу трех готовых лекарственных форм – порошок для инъекций, таблетки и суппозитории, но и участок по производству субстанции для препарата Галавит®.</p>
+							<p>Предприятие соответствует стандартам GMP. Вирфертил и Хепиклим выпускаются в Европе. Производство Pharmacy Laboratories полностью соответствует стандарту GMP.</p>
+							<div class="pdf__block">
+								<div class="pdf__block_icon"></div>
+								<div class="pdf__block_content">
+									<span class="pdf_name">Безопасность труда</span>
+									<span class="pdf_format">(PDF)</span>
+								</div>
+								<a href="#" class="mask"></a>
+							</div>
+							<div class="pdf__block">
+								<div class="pdf__block_icon"></div>
+								<div class="pdf__block_content">
+									<span class="pdf_name">Безопасность труда (производство)</span>
+									<span class="pdf_format">(PDF)</span>
+								</div>
+								<a href="#" class="mask"></a>
 							</div>
 						</div>
+						<div class="production__right">
+							<img src="img/content/about/galavit.png" alt="galavit">
+						</div>
 					</div>
-					<div class="slide">
-						<picture>
-							<source srcset="img/temp/slide3.png" media="(max-width: 767px)">
-							<img src="img/temp/slide3.png" alt="pic">
-						</picture>
-						<div class="wrapper">
-							<div class="info__block">
-								<h2 class="info__block_text">
-									<span>Как работает Галавит</span>
-								</h2>
+					<div class="production__bottom">
+						<div class="production__bottom_items">
+							<div class="production__bottom_item">
+								<img src="img/content/about/production1.png" alt="production1">
+							</div>
+							<div class="production__bottom_item">
+								<img src="img/content/about/production2.png" alt="production2">
+							</div>
+							<div class="production__bottom_item">
+								<img src="img/content/about/production3.png" alt="production3">
+							</div>
+							<div class="production__bottom_item">
+								<img src="img/content/about/production4.png" alt="production4">
+							</div>
+							<div class="production__bottom_item">
+								<img src="img/content/about/production5.png" alt="production5">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="news">
-				<div class="wrapper">
-					<h2 class="content__header">Новости</h2>
-					<div class="news__items">
-						<div class="news__item">
-							<span class="news__item_date">05 мая 2022</span>
-							<div class="news__item_content">
-								<span class="news__item_text">Компания «Сэлвим» получила сертификат о соответствии GMP</span>
-							</div>
-							<a href="#" class="mask"></a>
-						</div>
-						<div class="news__item">
-							<span class="news__item_date">05 мая 2022</span>
-							<div class="news__item_content">
-								<span class="news__item_text">Новый дизайн упаковки суппозиториев Галавите</span>
-							</div>
-							<a href="#" class="mask"></a>
-						</div>
-						<div class="news__item">
-							<span class="news__item_date">05 мая 2022</span>
-							<div class="news__item_content">
-								<span class="news__item_text">Важная информация от компании Сэлвим</span>
-							</div>
-							<a href="#" class="mask"></a>
-						</div>
-					</div>
-				</div>
+			<div class="about__images_items">
+				<div class="about__images_item"><img src="img/content/about/image1.png" alt="image1"></div>
+				<div class="about__images_item"><img src="img/content/about/image2.png" alt="image2"></div>
 			</div>
-			<div class="health">
+			<div class="counts__block">
 				<div class="wrapper">
-					<div class="health__head">
-						<h2 class="content__header">Забота о здоровье</h2>
-						<a href="#" class="more">Все материалы</a>
+					<div class="counts__block_top">
+						<h2 class="counts__title">Факты и цифры</h2>
+						<div class="counts-slider__arrow_block">
+							<div class="counts-slider-arrows"></div>
+						</div>
 					</div>
-					<div class="health__items">
-						<div class="health__item">
-							<div class="health__item_pic">
-								<img src="img/temp/health1.png" alt="alt">
+					<div class="counts__slider">
+						<div class="slide">
+							<div class="slide__content">
+								<div class="slide__content_num">1997</div>
+								<div class="slide__content_text">Регистрация препарата Галавит в России</div>
 							</div>
-							<h3 class="health__item_header">
-								<span>Профилактика и лечение вирусной инфекции</span>
-							</h3>
-							<p class="health__item_text">Галавит по итогам голосования врачей в рамках премии RUSSIAN PHARMA AWARDS 2021 стал победителем в номинации «Иммуномодулятор </p>
-							<a href="#" class="mask"></a>
 						</div>
-						<div class="health__item">
-							<div class="health__item_pic">
-								<img src="img/temp/slide3.png" alt="alt">
+						<div class="slide">
+							<div class="slide__content">
+								<div class="slide__content_num">1999</div>
+								<div class="slide__content_text">Регистрация препарата Галавит в России длинный текст в четыре строки</div>
 							</div>
-							<h3 class="health__item_header">
-								<span>Профилактика и лечение вирусной инфекции</span>
-							</h3>
-							<p class="health__item_text">Галавит по итогам голосования врачей в рамках премии RUSSIAN PHARMA AWARDS 2021 стал победителем в номинации «Иммуномодулятор </p>
-							<a href="#" class="mask"></a>
 						</div>
-						<div class="health__item">
-							<div class="health__item_pic">
-								<img src="img/temp/health3.png" alt="alt">
+						<div class="slide">
+							<div class="slide__content">
+								<div class="slide__content_num">2005</div>
+								<div class="slide__content_text">Регистрация препарата Галавит в России</div>
 							</div>
-							<h3 class="health__item_header">
-								<span>Профилактика и лечение вирусной инфекции</span>
-							</h3>
-							<p class="health__item_text">Галавит по итогам голосования врачей в рамках премии RUSSIAN PHARMA AWARDS 2021 стал победителем в номинации «Иммуномодулятор </p>
-							<a href="#" class="mask"></a>
+						</div>
+						<div class="slide">
+							<div class="slide__content">
+								<div class="slide__content_num">2010</div>
+								<div class="slide__content_text">Регистрация препарата Галавит в России</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__content">
+								<div class="slide__content_num">2014</div>
+								<div class="slide__content_text">Регистрация препарата Галавит в России</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__content">
+								<div class="slide__content_num">2022</div>
+								<div class="slide__content_text">Регистрация препарата Галавит в России</div>
+							</div>
 						</div>
 					</div>
 				</div>
