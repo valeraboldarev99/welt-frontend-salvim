@@ -38,10 +38,10 @@
 	}
 
 	.social__item {
-		width: 18px;
-		height: 18px;
+		width: 25px;
+		height: 25px;
 		margin-right: 7px;
-		background-size: 18px;
+		background-size: 25px;
 	}
 
 	.footer .social__item,
@@ -832,7 +832,7 @@
 	}
 
 	.counts-slider__arrow_block {
-		width: 100%;
+		width: 295px;
 	}
 
 	.counts__block .slick-prev,
@@ -884,8 +884,6 @@
 	}
 
 	.partners__item {
-		text-align: center;
-
 		width: 47%;
 		height: 30px;
 		margin: 20px 10px 20px 0;

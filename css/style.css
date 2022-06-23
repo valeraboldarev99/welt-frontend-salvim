@@ -1411,3 +1411,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .partners__item img {
 	width: 100%;
 }
+
+.partners__item:hover img {
+	transform: scale(1.1);
+}
