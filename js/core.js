@@ -22,7 +22,7 @@ $(document).ready(function () {
 	// слaйдер на странице о компании
 	$('.counts__slider').slick({
 		slidesToScroll:1,
-		slidesToShow:5,
+		slidesToShow:4,
 		// autoplay: true,
 		appendArrows:'.counts-slider-arrows',
 		autoplaySpeed: 3000,
@@ -33,6 +33,7 @@ $(document).ready(function () {
 			{
 				breakpoint: 767,
 				settings: {
+					slidesToShow:1,
 					arrows:true,
 				}
 			}
