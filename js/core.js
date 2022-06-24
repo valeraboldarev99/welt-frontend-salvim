@@ -40,6 +40,27 @@ $(document).ready(function () {
 		]
 	});
 
+	// слaйдер другие продукты
+	$('.other__products_slider').slick({
+		slidesToScroll:1,
+		slidesToShow:3,
+		// autoplay: true,
+		appendArrows:'.counts-slider-arrows',
+		autoplaySpeed: 3000,
+		pauseOnHover:true,
+		arrows:true,
+		dots:false,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow:1,
+					arrows:true,
+				}
+			}
+		]
+	});
+
 	/*кнопка вверх*/
 	$('.scrollup').click(function(){
 		$("html, body").animate({ scrollTop: 0 }, 600);
