@@ -1111,6 +1111,11 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	background: url('../img/bg01_light.png') center center no-repeat;
 }
 
+.without-bg .bread-crumbs__link,
+.without-bg {
+	color: #979797;
+}
+
 .bread-crumbs {
 	padding: 0;
 	margin-left: 0;
@@ -1690,5 +1695,105 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	background: #70AA24;
 }
 
-
 /*end products page*/
+
+/*spec page*/
+.spec__filter__items {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	margin-bottom: 40px;
+}
+
+.spec__filter__item {
+	border: 1px solid #8CC63F;
+	color: #373737;
+	background: #fff;
+	padding: 13px 20px;
+	margin-right: -1px;
+}
+
+.filter_act {
+	color: #fff;
+	background: #8cc63f;
+}
+
+.spec__filter__item:hover {
+	color: #8CC63F;
+}
+
+.spec__filter__item:first-child {
+	border-radius: 50px 0px 0px 50px;
+}
+
+.spec__filter__item:last-child {
+	border-radius: 0px 50px 50px 0px;
+}
+
+.spec__items {
+	column-count: 3;
+/*	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 1400px;*/
+	/*justify-content: space-between;*/
+/*	display: grid;
+	grid-template-columns: repeat(3, 31%);
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	grid-auto-flow: dense;*/
+}
+
+.spec__item {
+	/*width: 32%;*/
+	padding: 30px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.spec_directions {
+	background: url('../img/bg02.png') center center no-repeat;
+}
+
+.spec_products {
+	background: #74AE27;
+}
+
+.spec__item_name {
+	font-size: 10px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.spec__item_title {
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+.spec__item_title:hover {
+	color: #fff;
+	display: inline;
+	border-bottom: 1px solid #fff;
+}
+
+.spec__item_authors {
+	font-weight: 400;
+	font-size: 12px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.spec__item_read {
+	border: 1px solid #FFFFFF;
+	border-radius: 40px;
+	padding: 10px 15px;
+	color: #fff;
+	display: inline-block;
+}
+
+
+
+/*end spec page*/
