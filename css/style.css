@@ -1698,6 +1698,11 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 /*end products page*/
 
 /*spec page*/
+.page__decr {
+	margin-top: -70px;
+	margin-bottom: 40px;
+}
+
 .spec__filter__items {
 	display: flex;
 	justify-content: flex-start;
@@ -1731,28 +1736,24 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 }
 
 .spec__items {
-	column-count: 3;
-/*	display: flex;
+	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	height: 1400px;*/
-	/*justify-content: space-between;*/
-/*	display: grid;
-	grid-template-columns: repeat(3, 31%);
-	grid-column-gap: 25px;
-	grid-row-gap: 25px;
-	grid-auto-flow: dense;*/
+	align-content: space-between;
+	height: 1400px;
 }
 
 .spec__item {
-	/*width: 32%;*/
+	width: 32%;
 	padding: 30px;
 	color: #fff;
+	min-height: 320px;
 	margin-bottom: 25px;
 }
 
 .spec_directions {
 	background: url('../img/bg02.png') center center no-repeat;
+	background-size: cover;
 }
 
 .spec_products {
@@ -1771,12 +1772,20 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	font-size: 20px;
 	margin-bottom: 25px;
 	color: #fff;
+	display: inline-block;
+	max-height: 200px;
+	overflow: hidden;
 }
 
 .spec__item_title:hover {
 	color: #fff;
+}
+
+.spec__item_title span:hover {
+	color: #fff;
 	display: inline;
 	border-bottom: 1px solid #fff;
+	max-height: 200px;
 }
 
 .spec__item_authors {
@@ -1794,6 +1803,43 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	display: inline-block;
 }
 
+.spec__item_read:hover {
+	color: #fff;
+	font-size: 18px;
+	padding: 9px 15px;
+}
+
+.pagination {
+	text-align: center;
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination_item {
+    display: inline-block;
+    color: #373737;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.pagination_item:last-child {
+	margin-right: 0;
+}
+
+.pagination_item a {
+    color: #373737;
+    display: block;
+    text-decoration: none;
+}
+
+.pagination_item_act a {
+    color: #8CC63F;
+}
+
+.pagination_item a:hover {
+	color: #0067aa;
+}
 
 
 /*end spec page*/

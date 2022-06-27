@@ -133,4 +133,33 @@ $(document).ready(function () {
 		return false
 	});
 
+	count = document.querySelectorAll('#js-spec__items .spec__item').length;
+
+	if(window.outerWidth > 1300) {
+		if(count <= 3) {
+			$('.spec__items').css('height', '400px')
+		}
+		if(count > 3 && count <= 6) {
+			$('.spec__items').css('height', '900px')
+		}
+		if(count > 6 && count <= 9) {
+			$('.spec__items').css('height', '1350px')
+		}
+	}
+	if(window.outerWidth > 780 && window.outerWidth < 1300) {
+		if(count <= 3) {
+			$('.spec__items').css('height', '750px')
+		}
+		if(count > 3 && count <= 6) {
+			$('.spec__items').css('height', '1100px')
+		}
+		if(count > 6 && count <= 9) {
+			$('.spec__items').css('height', '1600px')
+		}
+	}
+	if(window.outerWidth < 780) {
+		if(count) {
+			$('.spec__items').css('height', 'auto')
+		}
+	}
 });
