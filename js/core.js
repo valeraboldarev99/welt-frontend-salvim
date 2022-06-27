@@ -118,7 +118,7 @@ $(document).ready(function () {
 		}
 		return false
 	});
-
+	/*аккордеон внутреннего меню в sidebar*/
 	$(".inner__set > .inner__set_btn").on("click", function(){
 		if($(this).hasClass('active')) {
 			$(this).removeClass("active");
@@ -133,6 +133,22 @@ $(document).ready(function () {
 		return false
 	});
 
+	/*аккордеон в вопросах*/
+	$(".questions__item > .open_btn").on("click", function(){
+		if($(this).hasClass('active')) {
+			$(this).removeClass("active");
+			$(this).siblings('.questions__item_content').slideUp(200);
+		}
+		else{
+			$(".questions__item > .open_btn").removeClass("active");
+			$(this).addClass("active");
+			$('.questions__item_content').slideUp(200);
+			$(this).siblings('.questions__item_content').slideDown(200);
+		}
+		return false
+	});
+
+	/*высота контента в специалистах для выравнивая колонок*/
 	count = document.querySelectorAll('#js-spec__items .spec__item').length;
 
 	if(window.outerWidth > 1300) {

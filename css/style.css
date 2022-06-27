@@ -547,7 +547,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 
 .set__content,
 .inner__set_content {
-	display: none
+	display: none;
 }
 
 .set__btn,
@@ -697,7 +697,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	position: absolute;
 	display: block;
 	top: 0;
-	left: 0;
+	left: 0px;
 	right: 0;
 	bottom: 0;
 	margin: auto;
@@ -1104,6 +1104,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .main__header_dark-bg {
 	color: #fff;
 	background: url('../img/bg01.png') center center no-repeat;
+	min-height: 275px;
 }
 
 .main__header_light-bg {
@@ -1161,7 +1162,10 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
-	padding-bottom: 31px
+	padding-bottom: 31px;
+	position: absolute;
+	bottom: 0;
+	margin-left: 0;
 }
 
 .main__menu_item {
@@ -1470,6 +1474,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .main__header_items {
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 }
 
 .main__header_item {
@@ -1526,8 +1531,13 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	justify-content: center;
 }
 
+.main__header_bg {
+	margin-top: -64px;
+}
+
 .main__header_pic img {
-	width: 92%;
+	width: auto;
+	height: 100%;
 }
 
 .main__header_links {
@@ -1546,6 +1556,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	padding: 15px 30px 15px 50px;
 	border-radius: 50px;
 	position: relative;
+	cursor: pointer;
 }
 
 .green__btn-link:hover {
@@ -1688,6 +1699,8 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	background: #8CC63F;
 	border-radius: 50px;
 	display: inline-block;
+	border: none;
+	cursor: pointer;
 }
 
 .green__btn:hover {
@@ -1701,6 +1714,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .page__decr {
 	margin-top: -70px;
 	margin-bottom: 40px;
+	color: #979797;
 }
 
 .spec__filter__items {
@@ -1841,5 +1855,115 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	color: #0067aa;
 }
 
-
 /*end spec page*/
+
+/*questions page*/
+.questions__content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+
+.questions__content_left {
+	width: 64.5%;
+}
+
+.questions__items {
+	width: 100%;
+}
+
+.questions__item {
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	padding: 30px 0 30px 38px;
+	position: relative;
+}
+
+.questions__item:before {
+	content: '';
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	top: 30px;
+	left: 0;
+	background: url('../img/question.svg') center center no-repeat;
+	background-size: contain;
+}
+
+.questions__item_top {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+}
+
+.questions__item_text {
+	font-weight: 700;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #979797;
+	margin-right: 12px;
+}
+
+.open_btn {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	background: url('../img/open_plus.svg') center center no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+.open_btn:hover {
+	background: url('../img/open_plus_hover.svg') center center no-repeat;
+}
+
+.open_btn.active {
+	background: url('../img/open_minus.svg') center center no-repeat;
+}
+
+.open_btn.active:hover {
+	background: url('../img/open_minus_hover.svg') center center no-repeat;
+}
+
+.questions__item_title {
+	font-weight: 600;
+	font-size: 16px;
+	max-width: 90%;
+}
+
+.questions__item_content {
+	margin-top: 35px;
+	border: 1px solid #8cc63f;
+	padding: 30px;
+	display: none;
+}
+
+.questions__content_right {
+	margin-top: 70px;
+}
+
+.form__block {
+	width: 100%;
+	margin-top: 24px;
+}
+
+.form__item {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 15px 20px;
+	background: #F0F2F5;
+	border: none;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.form__block .green__btn {
+	float: right;
+	margin-top: 10px;
+}
+
+
+/*questions page*/
