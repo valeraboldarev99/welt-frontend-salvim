@@ -33,8 +33,8 @@
 	}
 
 	.header__phone {
-		width: 300px;
-		margin-right: 50px;
+		width: 275px;
+		margin-right: 40px;
 	}
 
 	.social__item {
@@ -87,7 +87,7 @@
 	}
 
 	.header__drop {
-		top: 85px;
+		top: 93px;
 		padding: 15px 25px;
 		font-size: 12px;
 		opacity: 1;
@@ -674,6 +674,14 @@
 
 	.main__header_bg {
 		display: none;
+	}
+
+	.about-health__items {
+		margin: 40px 0;
+	}
+
+	.about-health__items .health__item {
+		margin-bottom: 25px;
 	}
 }
 
@@ -1401,5 +1409,13 @@
 		width: 90%;
 		margin-bottom: 25px;
 		margin-top: 10px;
+	}
+
+	.about-health__items {
+		margin: 40px 0 0 0;
+	}
+
+	.about-health__items .health__item {
+		margin-bottom: 30px;
 	}
 }
