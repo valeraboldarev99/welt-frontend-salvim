@@ -941,8 +941,8 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 
 .footer__logo {
 	width: 45%;
-	margin-top: -60px;
-	margin-bottom: 40px;
+	margin-top: -25px;
+	margin-bottom: 25px;
 }
 
 .footer__logo img {
@@ -1184,6 +1184,10 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 
 .main__header_dark-bg .main__menu_item a {
 	color: #fff;
+}
+
+.main__header_light-bg .main__menu_item a {
+	color: #0067aa;
 }
 
 .main__menu_item a:hover {
@@ -1716,7 +1720,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 /*spec page*/
 .page__decr {
 	margin-top: -70px;
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 	color: #979797;
 }
 

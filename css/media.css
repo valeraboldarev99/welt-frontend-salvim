@@ -230,8 +230,8 @@
 	}
 
 	.footer__logo {
-		margin-top: -35px;
-		margin-bottom: 30px;
+		margin-top: 0px;
+		margin-bottom: 20px;
 	}
 
 	.footer__contacts_item {
@@ -590,7 +590,7 @@
 
 	.page__decr {
 		margin-top: -30px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	.spec__filter__items {
